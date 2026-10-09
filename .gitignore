@@ -1,0 +1,43 @@
+# ---- Visual Studio / XDK Build Output ----
+[Bb]in/
+[Oo]bj/
+*.xex
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.idb
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.aps
+*.ncb
+*.plg
+*.opt
+
+# ---- XDK Specific ----
+*.xdk
+*_xdk/
+Xbox360/
+XeLL/
+!releases/GhostGirl.xex
+
+# ---- Visual Studio Temp ----
+.vs/
+*.log
+*.tlog
+*.lastbuildstate
+*.cache
+
+# ---- OS Junk ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+desktop.ini
+
+# ---- Optional: Local dev assets you don't want public ----
+# dev/
+# testfiles/
+# *.bak
