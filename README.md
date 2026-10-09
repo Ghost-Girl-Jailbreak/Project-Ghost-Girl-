@@ -82,7 +82,7 @@ Want to get your Xbox 360 soft-modded using a USB stick? We've packaged everythi
 2.  Extract the zip on your PC.
 3.  Find the folder named **`GhostGirlRepack`**.
 4.  Format a USB stick to **FAT32**.
-5.  Copy the **`GhostGirlRepaci`** folder to the root of the USB stick.
+5.  Copy the **`GhostGirlRepack`** folder to the root of the USB stick.
 6.  Safely eject the USB stick.
 7.  Plug the USB stick into your Xbox 360.
 8.  Follow the on-screen steps on your console.
