@@ -151,78 +151,107 @@ USB:\
      └── ...
 ```
 
-If you see a `GhostGirlRepack` folder on your USB stick, delete it
-and redo Step 3 by copying the **files inside** instead.
-
 5. Do **not** rename any of the files after copying them.
+6. Safely eject the USB stick.
 
 ---
 
-## Step 4 — Safely Eject
+## Step 4 — Prepare Console Settings ⚠️ IMPORTANT
 
-1. Safely eject the USB stick from your PC.
-2. Wait for the "safe to remove" confirmation.
+**Before plugging the USB stick into the console**, you must
+change two settings. If you skip this, the jailbreak will not
+work.
+
+### 4.1 — Turn Off Wi-Fi
+
+1. Power on the console **without** the USB stick inserted.
+2. Go to **Settings** → **System** → **Network Settings**
+3. Disconnect from any wireless network.
+4. Turn the Wi-Fi off completely.
+
+**Why:** The console must not connect to the internet while the
+exploit runs.
+
+### 4.2 — Turn Off Auto Sign-In
+
+1. Go to **Settings** → **System** → **Console Settings** →
+   **Startup and Shutdown**
+2. Set **Auto Sign-In** to **Off**.
+
+**Why:** The exploit needs the console to sit at the sign-in
+screen without auto-logging into a profile.
+
+### 4.3 — Power Off the Console
+
+1. Once both settings are off, shut down the console completely.
+2. Wait **30 seconds**.
+3. Make sure the console is fully off (no orange light, no fan).
 
 ---
 
-## Step 5 — Plug Into Console
+## Step 5 — Plug In USB & Boot Console
 
-1. Power off your Xbox 360 completely.
-2. Plug the USB stick into a USB port on the console.
-3. Power on the console.
+⚠️ **Follow these steps in exact order.** Timing matters.
+
+1. With the console **fully off**, plug the USB stick into the
+   USB port **closest to the power button**.
+   - On most Xbox 360 S models, that's the **front-left** port.
+   - If unsure, use the port nearest the power button.
+
+2. **Wait 5 seconds.** Do not press anything yet.
+
+3. Press the **power button** on the console to turn it on.
+
+4. **Wait.** The console will boot and the jailbreak will run
+   automatically.
+
+5. A profile named **`abadavatar`** will appear on the sign-in
+   screen.
+
+6. Click the **`abadavatar`** profile to log in.
+
+7. If everything worked, your console is now jailbroken. ✅
+
+> 💡 **Note:** If the console boots normally without the
+> `abadavatar` profile appearing, something went wrong. See
+> [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
 ---
 
-## Step 6 — Run the Exploit
+## Step 6 — Verify Install
 
-> 🚧 **Steps coming soon.**
+After the jailbreak completes, check:
 
-The on-console steps for running the exploit will be documented
-here once verified on real hardware.
-
----
-
-## Step 7 — Verify Install
-
-After the process completes, check:
-
+- [ ] The console booted with the `abadavatar` profile visible
+- [ ] You can sign in to that profile
 - [ ] The Ghost Girl client appears on your dashboard
 - [ ] You can launch it
 - [ ] You can browse the app list
 - [ ] You can download and install an app
 
-If any step fails, see Troubleshooting below.
+If any step fails, see [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
 ---
 
-## Troubleshooting
+## Step 7 — Keeping It Jailbroken
 
-### Console does not detect the USB stick
+The jailbreak is **temporary** — it only lasts as long as the
+console stays on. When you power off, you'll need to repeat
+Steps 4 and 5 to re-jailbreak. And aslong as the usb stick is in it will keep jailbreaking its self
 
-- Confirm the stick is formatted to **FAT32**
-- Try a different USB port
-- Try a different USB stick
-- Make sure the stick is not larger than 32GB (some consoles struggle with larger ones)
+> **Note:** Permanent softmod is possible with GhostGirlRepack
+> but **NOT recommended** at the moment. See the warning at the
+> top of this guide.
 
-### Exploit does not run
+---
 
-- Confirm your console supports **ABadUpdate** or **ABadAvatar**
-- Confirm the files are at the **root** of the USB stick, not inside a folder
-- Re-copy the files from the `GhostGirlRepack` folder to the USB stick
-- Confirm no files were renamed
-- Confirm the folder structure matches Step 3
+## Next Steps
 
-### Console freezes
+Once your console is jailbroken:
 
-- Power off, wait 30 seconds, power back on
-- Try a different USB stick
-- Try a different USB port
-
-### Client launches but shows no apps
-
-- Confirm your console has internet access
-- Confirm `repo.ini` is reachable on GitHub
-- Check the client log (if available)
+- Browse the store for apps
+- Vote on future console support (see README)
+- Join the Discord for help and updates
 
 ---
 
@@ -232,8 +261,7 @@ If any step fails, see Troubleshooting below.
 - Ask in the `#help` channel on Discord
 
 Include:
-- Console model
-- Exploit (ABadUpdate / ABadAvatar)
+- Console model and revision
 - What step failed
 - What you expected vs. what happened
 
