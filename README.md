@@ -1,16 +1,21 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:4b0082,100:8a2be2&height=200&section=header&text=Project%20Ghost%20Girl&fontSize=70&fontColor=c9a7ff&animation=fadeIn&fontAlignY=38&desc=Homebrew%20App%20Store&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:4b0082,100:8a2be2&height=220&section=header&text=Project%20Ghost%20Girl&fontSize=72&fontColor=c9a7ff&animation=fadeIn&fontAlignY=38&desc=Homebrew%20App%20Store&descAlignY=60&descSize=20" width="100%"/>
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=8A2BE2&center=true&vCenter=true&width=600&lines=Not+Public+Yet...;Still+In+Development...;Built+for+the+Scene...;Ghost+Girl+is+coming." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=8A2BE2&center=true&vCenter=true&width=650&lines=Not+Public+Yet...;Still+In+Development...;Built+for+the+Scene...;Ghost+Girl+is+coming." alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
 ![Status](https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-8A2BE2?style=for-the-badge&labelColor=0d0d0d)
 ![Release](https://img.shields.io/badge/RELEASE-NOT%20PUBLIC-4B0082?style=for-the-badge&labelColor=0d0d0d)
 ![Platform](https://img.shields.io/badge/PLATFORM-XBOX%20360-6A0DAD?style=for-the-badge&labelColor=0d0d0d)
+![License](https://img.shields.io/badge/LICENSE-PROPRIETARY-4B0082?style=for-the-badge&labelColor=0d0d0d)
+
+<br/>
+
+[About](#-about) • [Consoles](#-supported-consoles) • [Vote](#️-vote-for-the-next-console) • [Status](#-development-status) • [FAQ](#-faq) • [License](#️-license)
 
 </div>
 
@@ -24,7 +29,19 @@
 
 **Project Ghost Girl** is a homebrew app store built for modded consoles. It lets you browse, download, and install community-made apps directly from your console — no PC required.
 
-Everything is handled on-console: pick an app, download it, install it, launch it.
+Everything happens on-console: pick an app, download it, install it, launch it. The store fetches a live manifest from GitHub, so new apps appear without any client update.
+
+<div align="center">
+
+| Feature | Description |
+|---|---|
+| 🎮 **On-Console Store** | Browse and install without a PC |
+| ⚡ **Live Manifest** | New apps appear instantly, no client update |
+| 🗂️ **Per-App Repos** | Each app lives in its own GitHub repo |
+| 🔒 **Integrity Checks** | Optional SHA-256 verification |
+| 🌐 **GitHub Hosted** | Zero hosting costs, fully versioned |
+
+</div>
 
 > ⚠️ **This project is NOT public yet.** It is currently in active development and no builds are available for download. This page exists for tracking and announcements only.
 
@@ -38,12 +55,16 @@ Everything is handled on-console: pick an app, download it, install it, launch i
 
 At this moment, **Project Ghost Girl** only supports **jailbroken Xbox 360 consoles** running:
 
+<div align="center">
+
 | Exploit | Status |
-|---|---|
+|:---:|:---:|
 | **ABadUpdate** | ✅ Supported |
 | **ABadAvatar** | ✅ Supported |
 | Other RGH / JTAG | ❌ Not yet |
 | Stock / Unmodded | ❌ Not supported |
+
+</div>
 
 > Only **Xbox 360** is supported right now. Other consoles are listed below for community voting.
 
@@ -55,20 +76,24 @@ At this moment, **Project Ghost Girl** only supports **jailbroken Xbox 360 conso
 
 </div>
 
-Want Project Ghost Girl on another platform? Vote below by reacting with 👍 to the linked issue. The console with the most reactions will be considered next after Xbox 360 support is stable.
+Want Project Ghost Girl on another platform? Click a console's **Vote here** link and react with 👍 on the issue. The console with the most reactions will be considered next after Xbox 360 support is stable.
+
+<div align="center">
 
 | Console | Jailbreak Method | Vote |
-|---|---|---|
-| **PlayStation 4** | GoldHEN / Mira | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/1) |
-| **PlayStation 5** | etaHEN / BD-JB | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/2) |
-| **PlayStation Vita** | HENkaku / Enso | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/3) |
-| **Nintendo Switch** | Atmosphère | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/4) |
-| **Nintendo 3DS** | Luma3DS / Boot9Strap | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/5) |
-| **Wii U** | Tiramisu / Aroma | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/6) |
-| **Original Xbox** | Softmod / TSOP | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/7) |
-| **PlayStation Portable (PSP)** | CFW / PRO / ME | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/8) |
+|:---|:---|:---:|
+| 🎮 **PlayStation 4** | GoldHEN / Mira | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/1) |
+| 🎮 **PlayStation 5** | etaHEN / BD-JB | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/2) |
+| 🎮 **PlayStation Vita** | HENkaku / Enso | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/3) |
+| 🎮 **Nintendo Switch** | Atmosphère | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/4) |
+| 🎮 **Nintendo 3DS** | Luma3DS / Boot9Strap | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/5) |
+| 🎮 **Wii U** | Tiramisu / Aroma | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/6) |
+| 🎮 **Original Xbox** | Softmod / TSOP | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/7) |
+| 🎮 **PlayStation Portable (PSP)** | CFW / PRO / ME | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/8) |
 
-> 💡 **How voting works:** Click a console's "Vote here" link and react with 👍 on the issue. One vote per person per console.
+</div>
+
+> 💡 **How voting works:** Click a console's **Vote here** link and react with 👍 on the issue. One vote per person per console.
 
 ---
 
@@ -78,15 +103,69 @@ Want Project Ghost Girl on another platform? Vote below by reacting with 👍 to
 
 </div>
 
+<div align="center">
+
 | Stage | Progress |
-|---|---|
+|:---|:---:|
 | Core client | 🟣 In progress |
 | App browsing | 🟣 In progress |
 | App downloading | ⚫ Not started |
 | App installation | ⚫ Not started |
 | First public release | 🔒 Locked until stable |
 
-> No public builds will be released until everything is stable and tested on real hardware.
+</div>
+
+> No public builds will be released until everything is stable and tested on real hardware. See the full [Roadmap](docs/ROADMAP.md).
+
+---
+
+<div align="center">
+
+## 📚 Documentation
+
+</div>
+
+<div align="center">
+
+| Document | Description |
+|:---|:---|
+| 📖 [FAQ](docs/FAQ.md) | Common questions answered |
+| 🗂️ [Repo Format](docs/REPO_FORMAT.md) | How `repo.ini` works |
+| 🛠️ [Building](docs/BUILDING.md) | Toolchain and build steps |
+| 🗺️ [Roadmap](docs/ROADMAP.md) | Development phases |
+| 🖼️ [Screenshots](docs/SCREENSHOTS.md) | UI previews (coming soon) |
+| 🙏 [Credits](docs/CREDITS.md) | Tools and people behind the project |
+| 🔒 [Security](SECURITY.md) | Reporting vulnerabilities |
+| ⚖️ [Disclaimer](DISCLAIMER.md) | Legal notice |
+| ™️ [Trademarks](TRADEMARKS.md) | Trademark attributions |
+| 🤝 [Contributing](CONTRIBUTING.md) | How to help (and what we don't accept) |
+
+</div>
+
+---
+
+<div align="center">
+
+## ❓ FAQ
+
+</div>
+
+**Is Project Ghost Girl public yet?**
+No. It's still in active development. No builds are available.
+
+**Which consoles are supported?**
+Only jailbroken Xbox 360 consoles running ABadUpdate or ABadAvatar.
+
+**Will it support other consoles?**
+Maybe. Vote on the issues above. The most-voted console gets considered after Xbox 360 support is stable.
+
+**Is it open source?**
+No. The source is public for viewing only. See the [LICENSE](LICENSE).
+
+**Is it safe?**
+The client is built to be safe, but you're installing third-party apps. Only install apps you trust. See the [DISCLAIMER](DISCLAIMER.md).
+
+Full FAQ → [docs/FAQ.md](docs/FAQ.md)
 
 ---
 
@@ -98,14 +177,16 @@ Want Project Ghost Girl on another platform? Vote below by reacting with 👍 to
 
 **Project Ghost Girl is proprietary. All rights reserved.**
 
-This project is **not open source**. You may not copy, modify, redistribute, or reuse any part of it without explicit written permission from the author.
+This project is **not open source**. You may not copy, modify, redistribute, or reuse any part of it without explicit written permission from the author. See [LICENSE](LICENSE) for full terms.
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8a2be2,50:4b0082,100:0d0d0d&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8a2be2,50:4b0082,100:0d0d0d&height=140&section=footer&animation=fadeIn" width="100%"/>
 
 **Project Ghost Girl** — *Built in the dark, for the scene.*
+
+<sub>Not affiliated with Microsoft. See [DISCLAIMER](DISCLAIMER.md).</sub>
 
 </div>
