@@ -76,15 +76,16 @@ Look for the folder named **`GhostGirlRepack`** — that's the one you copy to y
 
 1.  Download **`GhostGirlRepack.zip`** from the Releases section.
 2.  Extract the zip on your PC.
-3.  Find the folder named **`GhostGirlRepack`**.
+3.  Open the folder named **`GhostGirlRepack`**.
 4.  Format a USB stick to **FAT32**.
-5.  Copy the **`GhostGirlRepack`** folder to the root of the USB stick.
-6.  Safely eject the USB stick.
-7.  Plug it into your Xbox 360.
-8.  Follow the on-screen steps on your console.
+5.  Select **all files and folders inside** `GhostGirlRepack`.
+6.  Copy them to the **root** of the USB stick.
+    - ⚠️ Do **not** copy the `GhostGirlRepack` folder itself — only its contents.
+7.  Safely eject the USB stick.
+8.  Plug it into your Xbox 360.
+9.  Follow the on-screen steps on your console.
 
 Full tutorial → [docs/TUTORIAL.md](../docs/TUTORIAL.md) *(coming soon)*
-
 ---
 
 ## ⚠️ Requirements
