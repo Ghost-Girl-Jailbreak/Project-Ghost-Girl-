@@ -85,10 +85,10 @@ Want Project Ghost Girl on another platform? Click a console's **Vote here** lin
 | 🎮 **PlayStation 4** | GoldHEN / Mira | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/1#issue-5781141911) |
 | 🎮 **PlayStation 5** | etaHEN / BD-JB | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/2#issue-5781145790) |
 | 🎮 **PlayStation Vita** | HENkaku / Enso | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/3#issue-5781149752) |
-| 🎮 **Nintendo Switch** | Atmosphère | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/4) |
-| 🎮 **Nintendo 3DS** | Luma3DS / Boot9Strap | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/5) |
-| 🎮 **Wii U** | Tiramisu / Aroma | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/6) |
-| 🎮 **Original Xbox** | Softmod / TSOP | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/7) |
+| 🎮 **Nintendo Switch** | Atmosphère | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/4#issue-5781154997) |
+| 🎮 **Nintendo 3DS** | Luma3DS / Boot9Strap | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/5#issue-5781159056) |
+| 🎮 **Wii U** | Tiramisu / Aroma | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/6#issue-5781161886) |
+| 🎮 **Original Xbox** | Softmod / TSOP | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/7#issue-5781165326) |
 | 🎮 **PlayStation Portable (PSP)** | CFW / PRO / ME | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/8) |
 
 </div>
