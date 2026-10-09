@@ -82,7 +82,7 @@ Want Project Ghost Girl on another platform? Click a console's **Vote here** lin
 
 | Console | Jailbreak Method | Vote |
 |:---|:---|:---:|
-| 🎮 **PlayStation 4** | GoldHEN / Mira | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/1) |
+| 🎮 **PlayStation 4** | GoldHEN / Mira | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/Ps4#1) |
 | 🎮 **PlayStation 5** | etaHEN / BD-JB | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/2) |
 | 🎮 **PlayStation Vita** | HENkaku / Enso | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/3) |
 | 🎮 **Nintendo Switch** | Atmosphère | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/4) |
