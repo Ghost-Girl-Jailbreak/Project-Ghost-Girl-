@@ -1,0 +1,34 @@
+name: Greetings
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Thanks for opening your first issue!
+
+            A maintainer will respond when they can. In the meantime:
+            - Check the [FAQ](docs/FAQ.md)
+            - Check the [Tutorial](docs/TUTORIAL.md)
+            - Join the [Discord](https://discord.gg/2YFyMqP6Te) for faster help
+
+            👻 Project Ghost Girl
+          pr-message: |
+            👋 Thanks for your first pull request!
+
+            Please read `CONTRIBUTING.md` — Project Ghost Girl is
+            proprietary and code contributions require prior approval.
+
+            👻 Project Ghost Girl
