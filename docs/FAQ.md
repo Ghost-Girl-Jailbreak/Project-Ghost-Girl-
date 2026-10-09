@@ -1,5 +1,7 @@
 # Frequently Asked Questions
 
+---
+
 ## General
 
 ### What is Project Ghost Girl?
@@ -25,6 +27,8 @@ Yes. Project Ghost Girl will always be free to use.
 No. The source is public for viewing only. See `LICENSE`.
 You may not copy, modify, or redistribute any part of it.
 
+---
+
 ## Compatibility
 
 ### Which consoles are supported?
@@ -48,6 +52,67 @@ next after Xbox 360 support is stable.
 
 Not at the moment. Support is planned but not confirmed.
 
+---
+
+## Jailbreak & Setup
+
+### How do I softmod my console?
+
+Download `GhostGirlRepack.zip` from Releases, extract it, and
+copy the **files inside the `GhostGirlRepack` folder** to the root
+of a FAT32 USB stick. See [TUTORIAL.md](TUTORIAL.md) for the full
+steps.
+
+### Do I need to turn off Wi-Fi?
+
+**Yes.** Before plugging in the USB stick, you must:
+
+- Turn **Wi-Fi off**
+- Turn **Auto Sign-In off**
+- Power off and wait **30 seconds**
+
+If you skip this, the exploit will not run.
+
+### Which USB port should I use?
+
+The USB port **closest to the power button**. On most Xbox 360 S
+models, that's the front-left port.
+
+### Do I need to wait after inserting the USB stick?
+
+Yes — wait **5 seconds** before pressing the power button.
+
+### What profile shows up after the jailbreak?
+
+A profile called **`abadavatar`** appears on the sign-in screen.
+Click it to sign in and complete the jailbreak.
+
+### Why does the `abadavatar` profile not show up?
+
+Most likely causes:
+
+- Wi-Fi wasn't turned off
+- Auto Sign-In wasn't turned off
+- The USB stick wasn't in the correct port
+- You didn't wait 5 seconds before powering on
+- Files are inside a `GhostGirlRepack` folder instead of at the root
+
+See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for more.
+
+### How long does the jailbreak last?
+
+It's **temporary**. Once you power off, you must repeat the USB
+boot process. Permanent softmod is possible but **NOT recommended**
+right now.
+
+### Can I use Wi-Fi after jailbreaking?
+
+Some exploits conflict with network services. It's safest to keep
+Wi-Fi off during the jailbreak, and re-enable it afterward if you
+want online features.
+
+---
+
 ## Safety
 
 ### Is it safe?
@@ -69,14 +134,17 @@ only installing apps from trusted sources.
 
 ### Does it phone home?
 
-The client only contacts GitHub to fetch the manifest and app
-files. No analytics, no tracking, no telemetry.
+No. The client only contacts GitHub to fetch the manifest and app
+files. No analytics, no tracking, no telemetry. See
+[SECURITY_NOTES.md](SECURITY_NOTES.md).
+
+---
 
 ## Using the Store
 
 ### How do I install it?
 
-Not available yet. Instructions will be in `docs/BUILDING.md`
+Not available yet. Instructions will be in [TUTORIAL.md](TUTORIAL.md)
 once a public build exists.
 
 ### Where do apps get installed?
@@ -87,15 +155,17 @@ is defined in `repo.ini`.
 ### Can I host my own apps?
 
 App repos are created and maintained by the Project Ghost Girl
-team. If you want to submit an app, open an issue.
+team. See [APP_SUBMISSION.md](APP_SUBMISSION.md).
+
+---
 
 ## Development
 
 ### Why is the toolchain Windows-only?
 
 The official Xbox 360 XDK integrates with Visual Studio 2010 on
-Windows. LibXenon exists for Linux, but produces `.elf` files that
-most dashboards don't launch directly.
+Windows. LibXenon exists for Linux, but produces `.elf` files
+that most dashboards don't launch directly.
 
 ### Can I contribute code?
 
@@ -104,6 +174,8 @@ Not currently. See `CONTRIBUTING.md`.
 ### Can I help test?
 
 Yes, once a build exists. Watch the repo for testing announcements.
+
+---
 
 ## Legal
 
@@ -115,3 +187,10 @@ No. Project Ghost Girl is for homebrew apps, not commercial games.
 
 Modding your own console is legal in many countries but not all.
 Check your local laws.
+
+---
+
+## Still Have Questions?
+
+- 💬 [Join the Discord](https://discord.gg/2YFyMqP6Te) — ask in `#help`
+- 🐛 [Open an issue](../../issues/new) with the `question` label
