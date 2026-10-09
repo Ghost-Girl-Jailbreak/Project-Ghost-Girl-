@@ -1,0 +1,101 @@
+name-template: 'GhostGirlRepack v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
+
+template: |
+  ## 👻 GhostGirlRepack $NEXT_PATCH_VERSION
+
+  $CHANGES
+
+  ---
+
+  ### 📦 Download
+
+  Attach `GhostGirlRepack.zip` to this release before publishing.
+
+  ### ⚠️ Permanent Softmod Warning
+
+  Permanent softmod is **NOT recommended** at the moment.
+  Use the temporary USB method for now.
+
+  ### 🚀 Quick Start
+
+  1. Download and extract `GhostGirlRepack.zip`
+  2. Open the `GhostGirlRepack` folder
+  3. Copy the **files inside** to the root of a FAT32 USB stick
+  4. Turn off Wi-Fi and Auto Sign-In on your console
+  5. Power off, wait 30 seconds, insert USB into the port nearest the power button
+  6. Wait 5 seconds, then power on
+  7. Sign in to the `abadavatar` profile
+
+  Full guide → [TUTORIAL.md](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/blob/main/docs/TUTORIAL.md)
+
+  ---
+
+  <sub>Project Ghost Girl — Built in the dark, for the scene.</sub>
+
+change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
+change-title-escapes: '\<*_&'
+
+exclude-labels:
+  - ignore-for-release
+  - duplicate
+  - wontfix
+
+categories:
+  - title: 🎉 Features
+    labels:
+      - enhancement
+      - feature
+  - title: 🐛 Bug Fixes
+    labels:
+      - bug
+      - fix
+  - title: 🛠️ Compatibility
+    labels:
+      - compatibility
+      - console
+  - title: 📚 Documentation
+    labels:
+      - documentation
+  - title: 🔒 Security
+    labels:
+      - security
+  - title: 🧹 Maintenance
+    labels:
+      - chore
+      - maintenance
+  - title: Other Changes
+    labels:
+      - "*"
+
+version-resolver:
+  major:
+    labels:
+      - major
+  minor:
+    labels:
+      - minor
+  patch:
+    labels:
+      - patch
+  default: patch
+
+autolabeler:
+  - label: documentation
+    files:
+      - '*.md'
+      - 'docs/**/*'
+  - label: chore
+    files:
+      - '.github/**/*'
+      - '.editorconfig'
+      - '.gitattributes'
+      - '.gitignore'
+  - label: bug
+    title:
+      - '/fix/i'
+      - '/bug/i'
+  - label: enhancement
+    title:
+      - '/feat/i'
+      - '/feature/i'
