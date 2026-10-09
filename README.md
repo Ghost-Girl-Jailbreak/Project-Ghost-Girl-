@@ -70,19 +70,19 @@ At this moment, **Project Ghost Girl** only supports **jailbroken Xbox 360 conso
 > Only **Xbox 360** is supported right now. Other consoles are listed below for community voting.
 
 ---
-Want to get your Xbox 360 soft-modded using a USB stick? We've packaged everything you need into a single file called **`GhostGirlmod.zip`**.
+Want to get your Xbox 360 soft-modded using a USB stick? We've packaged everything you need into a single file called **`GhostGirlRepack.zip`**.
 
-> 📦 **Download:** `GhostGirlmod.zip` — available in the [Releases](../../releases) section once published.
+> 📦 **Download:** `GhostGirlRepack.zip` — available in the [Releases](../../releases) section once published.
 >
-> 📁 **Inside the zip:** Look for the folder named **`GhostGirlmod`** — that's the one you'll copy to your USB stick.
+> 📁 **Inside the zip:** Look for the folder named **`GhostGirlRepack`** — that's the one you'll copy to your USB stick.
 
 ### 📝 Quick Overview
 
-1.  Download **`GhostGirlmod.zip`** from the Releases page.
+1.  Download **`GhostGirlRepack.zip`** from the Releases page.
 2.  Extract the zip on your PC.
-3.  Find the folder named **`GhostGirlmod`**.
+3.  Find the folder named **`GhostGirlRepack`**.
 4.  Format a USB stick to **FAT32**.
-5.  Copy the **`GhostGirlmod`** folder to the root of the USB stick.
+5.  Copy the **`GhostGirlRepaci`** folder to the root of the USB stick.
 6.  Safely eject the USB stick.
 7.  Plug the USB stick into your Xbox 360.
 8.  Follow the on-screen steps on your console.
@@ -98,7 +98,7 @@ A complete step-by-step tutorial — including console setup, exploit steps, and
 - A **jailbreakable Xbox 360** (ABadUpdate / ABadAvatar compatible)
 - A **USB stick** formatted to FAT32
 - A **PC** to prepare the USB stick
-- The **`GhostGirlmod.zip`** file (from Releases)
+- The **`GhostGirlRepack.zip`** file (from Releases)
 
 > ❗ Modding your console voids warranties and carries risk. Read the [DISCLAIMER](DISCLAIMER.md) before proceeding.
 
