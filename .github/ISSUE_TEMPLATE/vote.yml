@@ -1,0 +1,22 @@
+name: Vote for a Console
+description: Vote for Project Ghost Girl to support a new console.
+title: "[VOTE] "
+labels: ["vote"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        React with 👍 on this issue to cast your vote.
+        One vote per person per console.
+  - type: input
+    id: console
+    attributes:
+      label: Console name
+      placeholder: e.g. PlayStation 4
+    validations:
+      required: true
+  - type: input
+    id: jailbreak
+    attributes:
+      label: Jailbreak method
+      placeholder: e.g. GoldHEN / Mira
