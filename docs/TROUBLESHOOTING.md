@@ -153,7 +153,90 @@ If it keeps freezing:
 - Try a different app to confirm the client works
 - Reinstall the client
 
+## Jailbreak Issues
+
+### `abadavatar` profile does not appear
+
+**Check:**
+
+- Did you **turn off Wi-Fi** before booting? (See Step 4.1)
+- Did you **turn off Auto Sign-In**? (See Step 4.2)
+- Did you wait **30 seconds** after powering off?
+- Did you wait **5 seconds** after inserting the USB stick before powering on?
+- Is the USB stick in the **port closest to the power button**?
+- Are the files at the **root** of the USB stick (not in a `GhostGirlRepack` folder)?
+- Are any files renamed?
+
+**Fix:**
+
+1. Power off completely
+2. Wait 30 seconds
+3. Confirm Wi-Fi is off and Auto Sign-In is off
+4. Remove the USB stick, then reinsert it into the port closest to the power button
+5. Wait 5 seconds
+6. Power on
+7. Wait for `abadavatar` to appear
+
 ---
+
+### Console boots normally but nothing happens
+
+**Cause:** The USB stick is not being detected, or the timing was off.
+
+**Fix:**
+
+1. Power off and wait 30 seconds
+2. Try a different USB port (still the one closest to the power button if possible)
+3. Try a different USB stick (FAT32, smaller than 32GB)
+4. Re-copy files from `GhostGirlRepack` — contents only, not the folder
+
+---
+
+### `abadavatar` profile appears but sign-in fails
+
+**Fix:**
+
+1. Power off and wait 30 seconds
+2. Power back on and try again
+3. If it keeps failing, re-extract `GhostGirlRepack.zip` and re-copy the files
+
+---
+
+### Console signs into my normal profile instead of `abadavatar`
+
+**Cause:** Auto Sign-In is still on.
+
+**Fix:**
+
+1. Go to Settings → System → Console Settings → Startup and Shutdown
+2. Set Auto Sign-In to **Off**
+3. Power off, wait 30 seconds
+4. Follow Step 5 again
+
+---
+
+### Jailbreak works but Wi-Fi won't connect afterward
+
+**Cause:** Some exploits conflict with network services if Wi-Fi is enabled during boot.
+
+**Fix:**
+
+1. Reboot the console without the USB stick
+2. Re-enable Wi-Fi manually
+3. You may need to re-jailbreak if you want to use online features
+
+---
+
+### Console freezes during jailbreak
+
+**Fix:**
+
+1. Hold the power button for 10 seconds to force power off
+2. Unplug the USB stick
+3. Wait 30 seconds
+4. Reinsert and try again
+5. If it keeps freezing, try a different USB stick
+ ---
 
 ## Still Stuck?
 
