@@ -82,9 +82,9 @@ Want Project Ghost Girl on another platform? Click a console's **Vote here** lin
 
 | Console | Jailbreak Method | Vote |
 |:---|:---|:---:|
-| 🎮 **PlayStation 4** | GoldHEN / Mira | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/Ps4#1) |
-| 🎮 **PlayStation 5** | etaHEN / BD-JB | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/2) |
-| 🎮 **PlayStation Vita** | HENkaku / Enso | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/3) |
+| 🎮 **PlayStation 4** | GoldHEN / Mira | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/1#issue-5781141911) |
+| 🎮 **PlayStation 5** | etaHEN / BD-JB | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/2#issue-5781145790) |
+| 🎮 **PlayStation Vita** | HENkaku / Enso | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/3#issue-5781149752) |
 | 🎮 **Nintendo Switch** | Atmosphère | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/4) |
 | 🎮 **Nintendo 3DS** | Luma3DS / Boot9Strap | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/5) |
 | 🎮 **Wii U** | Tiramisu / Aroma | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/6) |
