@@ -1,0 +1,84 @@
+name: Compatibility Report
+description: Report GhostGirlRepack working or not working on a console
+title: "[COMPAT] "
+labels: ["compatibility", "console"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping expand the compatibility list!
+
+  - type: input
+    id: console
+    attributes:
+      label: Console model
+      description: Which Xbox 360 model do you have?
+      placeholder: e.g. Xbox 360 S
+    validations:
+      required: true
+
+  - type: dropdown
+    id: revision
+    attributes:
+      label: Console revision
+      description: If you know it (check the serial number)
+      options:
+        - Trinity
+        - Corona
+        - Winchester
+        - Xenon
+        - Zephyr
+        - Falcon
+        - Jasper
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: exploit
+    attributes:
+      label: Exploit used
+      options:
+        - ABadUpdate
+        - ABadAvatar
+        - RGH
+        - JTAG
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - ✅ Works perfectly
+        - ⚠️ Works with issues
+        - ❌ Does not work
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: GhostGirlRepack version
+      placeholder: e.g. v0.1.9
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happened? What worked? What didn't?
+      placeholder: Describe your experience step by step
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or logs
+      description: Paste any error output here, or attach screenshots
+    validations:
+      required: false
