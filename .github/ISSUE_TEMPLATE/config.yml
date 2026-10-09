@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord Server
+    url: https://discord.gg/2YFyMqP6Te
+    about: Get faster help in the #help channel
+  - name: 📖 FAQ
+    url: https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/blob/main/docs/FAQ.md
+    about: Answers to the most common questions
+  - name: 🛠️ Troubleshooting Guide
+    url: https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/blob/main/docs/TROUBLESHOOTING.md
+    about: Common problems and how to fix them
+  - name: 📂 File Layout Guide
+    url: https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/blob/main/docs/FILE_LAYOUT.md
+    about: Correct USB folder structure for GhostGirlRepack
