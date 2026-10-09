@@ -178,6 +178,39 @@ Want Project Ghost Girl on another platform? Click a console's **Vote here** lin
 
 <div align="center">
 
+## 📱 Socials
+
+</div>
+
+<div align="center">
+
+Stay connected with Project Ghost Girl. Get release announcements, ask for help, vote on future console support, and hang out with the community.
+
+<br/>
+
+[![Discord](https://img.shields.io/badge/Discord-Join%20the%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/2YFyMqP6Te)
+[![GitHub](https://img.shields.io/badge/GitHub-Project--Ghost--Girl-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl)
+[![Releases](https://img.shields.io/badge/Releases-GhostGirlRepack-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/releases)
+[![Issues](https://img.shields.io/badge/Issues-Report%20a%20Bug-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues)
+
+<br/>
+
+### 💬 Discord
+
+Join the community server for:
+- 📢 Release announcements
+- 🛠️ Softmod help and troubleshooting
+- 🗳️ Console voting discussion
+- 👥 General chat and community support
+
+[**→ Join the Discord**](https://discord.gg/2YFyMqP6Te)
+
+</div>
+
+---
+
+<div align="center">
+
 ## ❓ FAQ
 
 </div>
