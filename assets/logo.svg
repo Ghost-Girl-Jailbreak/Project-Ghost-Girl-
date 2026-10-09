@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="ggGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="50%" stop-color="#4b0082"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <radialGradient id="ggGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c9a7ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background glow -->
+  <circle cx="100" cy="100" r="90" fill="url(#ggGlow)"/>
+
+  <!-- Ghost body -->
+  <path d="M 100 30
+           C 60 30, 40 70, 40 110
+           L 40 165
+           L 55 150
+           L 70 165
+           L 85 150
+           L 100 165
+           L 115 150
+           L 130 165
+           L 145 150
+           L 160 165
+           L 160 110
+           C 160 70, 140 30, 100 30 Z"
+        fill="url(#ggGrad)"
+        stroke="#c9a7ff"
+        stroke-width="2"/>
+
+  <!-- Left eye -->
+  <ellipse cx="78" cy="95" rx="10" ry="14" fill="#0d0d0d"/>
+  <circle cx="78" cy="95" r="4" fill="#c9a7ff"/>
+
+  <!-- Right eye -->
+  <ellipse cx="122" cy="95" rx="10" ry="14" fill="#0d0d0d"/>
+  <circle cx="122" cy="95" r="4" fill="#c9a7ff"/>
+
+  <!-- Mouth -->
+  <path d="M 85 130 Q 100 145, 115 130"
+        fill="none"
+        stroke="#0d0d0d"
+        stroke-width="3"
+        stroke-linecap="round"/>
+</svg>
