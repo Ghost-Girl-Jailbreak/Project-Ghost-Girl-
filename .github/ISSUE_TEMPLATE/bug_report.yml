@@ -1,0 +1,31 @@
+name: Bug Report
+description: Report a bug in Project Ghost Girl
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: input
+    id: console
+    attributes:
+      label: Console + exploit
+      placeholder: e.g. Xbox 360 S, ABadAvatar
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Client version
+      placeholder: e.g. 0.0.1
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
