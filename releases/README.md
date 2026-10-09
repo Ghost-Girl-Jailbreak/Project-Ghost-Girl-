@@ -2,7 +2,7 @@
 
 # 📦 Project Ghost Girl — Releases
 
-<img src="https://img.shields.io/badge/STATUS-NOT%20PUBLIC-4B0082?style=for-the-badge&labelColor=0d0d0d"/>
+<img src="https://img.shields.io/badge/STATUS-%20PUBLIC-4B0082?style=for-the-badge&labelColor=0d0d0d"/>
 <img src="https://img.shields.io/badge/FILE-GhostGirlRepack.zip-8A2BE2?style=for-the-badge&labelColor=0d0d0d"/>
 
 </div>
@@ -13,7 +13,7 @@
 
 The latest release is **`GhostGirlRepack.zip`**.
 
-> ⚠️ **Not published yet.** This release will be available here once the softmod package is stable. Watch the repo for updates.
+> ⚠️ **Beta Published .** This release will be available here once the softmod package is stable. Watch the repo for updates, and beta is out now.
 
 ---
 
