@@ -1,0 +1,50 @@
+# Project Ghost Girl — label definitions
+# Import via: github-label-sync or manual creation
+
+- name: vote
+  color: "8A2BE2"
+  description: Voting issues for future console support
+
+- name: console
+  color: "4B0082"
+  description: Console-related topics
+
+- name: xbox-360
+  color: "6A0DAD"
+  description: Xbox 360 specific
+
+- name: playstation
+  color: "003791"
+  description: PlayStation family
+
+- name: nintendo
+  color: "E60012"
+  description: Nintendo family
+
+- name: bug
+  color: "d73a4a"
+  description: Something is broken
+
+- name: enhancement
+  color: "a2eeef"
+  description: Feature request or improvement
+
+- name: documentation
+  color: "0075ca"
+  description: Docs and README changes
+
+- name: question
+  color: "d876e3"
+  description: Further information requested
+
+- name: wontfix
+  color: "ffffff"
+  description: This will not be worked on
+
+- name: duplicate
+  color: "cfd3d7"
+  description: Already reported
+
+- name: security
+  color: "B60205"
+  description: Security-related issue
