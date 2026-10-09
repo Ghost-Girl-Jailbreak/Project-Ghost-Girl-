@@ -1,0 +1,97 @@
+name: App Submission
+description: Submit a homebrew app to be listed in Project Ghost Girl
+title: "[APP] "
+labels: ["app-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **App submissions are not open yet.**
+
+        Use this template to express interest or register your app
+        for when submissions open. A maintainer will review it.
+
+  - type: input
+    id: app_name
+    attributes:
+      label: App name
+      placeholder: e.g. Super Emulator
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author name
+      description: Who made this app?
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: One or two sentences about what the app does
+      placeholder: A fast multi-system emulator for Xbox 360.
+    validations:
+      required: true
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: GitHub repo URL
+      description: Where the .xex file is hosted
+      placeholder: https://github.com/YourName/YourApp
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Emulator
+        - Utility
+        - Game
+        - Media
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: size
+    attributes:
+      label: File size
+      placeholder: e.g. 4.2MB
+    validations:
+      required: true
+
+  - type: textarea
+    id: license
+    attributes:
+      label: License and permissions
+      description: Is your app your own work? Any third-party assets?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: The app is my own work or properly licensed
+          required: true
+        - label: The app does not contain pirated content
+          required: true
+        - label: The app does not contain malicious code
+          required: true
+        - label: I understand submissions may be rejected
+          required: true
