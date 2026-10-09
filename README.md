@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:4b0082,100:8a2be2&height=200&section=header&text=Project%20Ghost%20Girl&fontSize=70&fontColor=c9a7ff&animation=fadeIn&fontAlignY=38&desc=Xbox%20360%20Homebrew%20App%20Store&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:4b0082,100:8a2be2&height=200&section=header&text=Project%20Ghost%20Girl&fontSize=70&fontColor=c9a7ff&animation=fadeIn&fontAlignY=38&desc=Homebrew%20App%20Store&descAlignY=58&descSize=18" width="100%"/>
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=8A2BE2&center=true&vCenter=true&width=600&lines=Not+Public+Yet...;Still+In+Development...;Built+for+the+Xbox+360+Scene...;Ghost+Girl+is+coming." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=8A2BE2&center=true&vCenter=true&width=600&lines=Not+Public+Yet...;Still+In+Development...;Built+for+the+Scene...;Ghost+Girl+is+coming." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -55,20 +55,20 @@ At this moment, **Project Ghost Girl** only supports **jailbroken Xbox 360 conso
 
 </div>
 
-Want Project Ghost Girl on another platform? Vote below by reacting to the linked issue. The most-voted console will be considered next after Xbox 360 support is stable.
+Want Project Ghost Girl on another platform? Vote below by reacting with 👍 to the linked issue. The console with the most reactions will be considered next after Xbox 360 support is stable.
 
 | Console | Jailbreak Method | Vote |
 |---|---|---|
-| **PlayStation 4** | GoldHEN / Mira | [Vote here](#) |
-| **PlayStation 5** | etaHEN / BD-JB | [Vote here](#) |
-| **PlayStation Portable (PSP)** | CFW / PRO / ME | [Vote here](#) |
-| **PlayStation Vita** | HENkaku / Enso | [Vote here](#) |
-| **Nintendo Switch** | Atmosphère | [Vote here](#) |
-| **Nintendo 3DS** | Luma3DS / Boot9Strap | [Vote here](#) |
-| **Wii U** | Tiramisu / Aroma | [Vote here](#) |
-| **Original Xbox** | Softmod / TSOP | [Vote here](#) |
+| **PlayStation 4** | GoldHEN / Mira | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/1) |
+| **PlayStation 5** | etaHEN / BD-JB | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/2) |
+| **PlayStation Vita** | HENkaku / Enso | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/3) |
+| **Nintendo Switch** | Atmosphère | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/4) |
+| **Nintendo 3DS** | Luma3DS / Boot9Strap | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/5) |
+| **Wii U** | Tiramisu / Aroma | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/6) |
+| **Original Xbox** | Softmod / TSOP | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/7) |
+| **PlayStation Portable (PSP)** | CFW / PRO / ME | [Vote here](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/8) |
 
-> 💡 **How voting works:** Replace each `#` link with a GitHub Issue URL like `https://github.com/Project-Ghost-Girl/Project-Ghost-Girl/issues/1`. Users react with 👍 to vote. You count reactions when you're ready to expand.
+> 💡 **How voting works:** Click a console's "Vote here" link and react with 👍 on the issue. One vote per person per console.
 
 ---
 
