@@ -1,0 +1,58 @@
+name: Close Stale Issues
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # Runs daily at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Bug reports and compatibility issues stay longer
+          days-before-issue-stale: 60
+          days-before-issue-close: 14
+
+          # PRs
+          days-before-pr-stale: 30
+          days-before-pr-close: 14
+
+          # Vote issues are exempt — they stay open forever
+          exempt-issue-labels: 'vote,pinned,security,enhancement'
+          exempt-pr-labels: 'pinned'
+
+          stale-issue-message: |
+            👻 This issue has been automatically marked as stale because
+            it has had no activity for 60 days.
+
+            If it's still relevant, comment to keep it open. Otherwise,
+            it will be closed in 14 days.
+
+            If you're still experiencing the problem, please reopen a
+            new issue with updated information.
+
+          stale-pr-message: |
+            👻 This pull request has been automatically marked as stale
+            because it has had no activity for 30 days.
+
+            If it's still relevant, comment or push updates. Otherwise,
+            it will be closed in 14 days.
+
+          close-issue-message: |
+            👻 Closed due to inactivity. If this is still a problem,
+            please open a new issue.
+
+          close-pr-message: |
+            👻 Closed due to inactivity. If this is still relevant,
+            feel free to reopen or resubmit.
+
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'
