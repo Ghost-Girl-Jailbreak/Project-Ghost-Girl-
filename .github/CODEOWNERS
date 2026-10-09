@@ -1,0 +1,19 @@
+# Project Ghost Girl — CODEOWNERS
+#
+# Every file in this repo is owned by the Project Ghost Girl org.
+# Since there's one maintainer, this just formalizes ownership
+# and enables auto-review requests if collaborators are added.
+
+*       @Ghost-Girl-Jailbreak
+
+# Source code
+/src/   @Ghost-Girl-Jailbreak
+
+# Docs
+/docs/  @Ghost-Girl-Jailbreak
+
+# Manifests
+/repo/  @Ghost-Girl-Jailbreak
+
+# Releases
+/releases/  @Ghost-Girl-Jailbreak
