@@ -1,0 +1,37 @@
+# Project Ghost Girl — git attributes
+# Forces consistent line endings across platforms.
+
+# Default: normalize line endings in the repo
+* text=auto eol=lf
+
+# Source code — LF (works on both Linux and Windows)
+*.cpp text eol=lf
+*.h   text eol=lf
+*.hpp text eol=lf
+*.c   text eol=lf
+
+# Build files — CRLF (Windows-friendly for Visual Studio)
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+
+# Docs and configs — LF
+*.md  text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.ini  text eol=lf
+*.txt  text eol=lf
+
+# Mark binary files explicitly
+*.zip  binary
+*.xex  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.ico  binary
+*.gif  binary
+
+# Diffs
+*.md    diff=markdown
+*.json  diff=json
