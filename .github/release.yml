@@ -1,0 +1,34 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+      - duplicate
+      - wontfix
+    authors:
+      - dependabot
+  categories:
+    - title: 🎉 Features
+      labels:
+        - enhancement
+        - feature
+    - title: 🐛 Bug Fixes
+      labels:
+        - bug
+        - fix
+    - title: 🛠️ Compatibility
+      labels:
+        - compatibility
+        - console
+    - title: 📚 Documentation
+      labels:
+        - documentation
+    - title: 🔒 Security
+      labels:
+        - security
+    - title: 🧹 Maintenance
+      labels:
+        - chore
+        - maintenance
+    - title: Other Changes
+      labels:
+        - "*"
