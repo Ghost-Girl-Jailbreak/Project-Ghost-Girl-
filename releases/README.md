@@ -1,118 +1,74 @@
 <div align="center">
 
-# 📦 Project Ghost Girl — Releases
+# 📦 Releases
 
-<img src="https://img.shields.io/badge/STATUS-%20PUBLIC-4B0082?style=for-the-badge&labelColor=0d0d0d"/>
-<img src="https://img.shields.io/badge/FILE-GhostGirlRepack.zip-8A2BE2?style=for-the-badge&labelColor=0d0d0d"/>
+<img src="https://img.shields.io/badge/STATUS-MOVED-D4AF37?style=for-the-badge&labelColor=1a1a1a"/>
+<img src="https://img.shields.io/badge/SOFTMOD-GhostGirl--Softmod-C9A227?style=for-the-badge&labelColor=1a1a1a"/>
 
 </div>
 
 ---
 
-## 📥 Download
+## 🔓 Softmod Has Moved
 
-The latest release is **`GhostGirlRepack.zip`**.
+The **GhostGirlRepack** softmod package now lives in its own repo:
 
-> ⚠️ **Beta Published .** This release will be available here once the softmod package is stable. Watch the repo for updates, and beta is out now.
+<div align="center">
 
----
+### → [GhostGirl-Softmod](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod)
 
-## 📖 About GhostGirlRepack
+</div>
 
-**GhostGirlRepack** is the Project Ghost Girl softmod package for Xbox 360.
+Head there for:
 
-It contains everything needed to:
-
-- Permanently soft-mod your jailbroken Xbox 360
-- Set up the Ghost Girl app store client
-- Launch homebrew directly from your dashboard
-
----
-
-## ⚠️ Permanent Softmod Warning
-
-**GhostGirlRepack can permanently soft-mod your console.**
-
-This means the exploit will remain applied even after you power off your console, and it will boot automatically on startup.
-
-**However — permanent softmod is NOT recommended at the moment.**
-
-### Why Not?
-
-- The permanent method is still **in testing**
-- Recovery from a bad flash may require **hardware tools**
-- Temporary softmod (USB-based) is **safer** and **reversible**
-- The permanent method will become the recommended option **only after** it has been verified across more console revisions
-
-### Recommendation
-
-For now, **use the temporary USB method**. It's safer, works on more consoles, and won't leave permanent changes if something goes wrong.
-
-Permanent softmod will be recommended **only** when it's been proven stable on:
-
-- Trinity
-- Corona
-- Winchester
+- 📥 **Downloads** — the latest `GhostGirlRepack.zip`
+- 📖 **Install Guide** — full step-by-step walkthrough
+- 🛠️ **Troubleshooting** — common problems and fixes
+- 📜 **Changelog** — every version, every change
+- 🐛 **Issues** — report bugs with the softmod specifically
 
 ---
 
-## 📂 What's Inside GhostGirlRepack.zip
+## Why the Change?
 
-After extracting, you will find:
+Splitting the softmod into its own repo means:
 
-```
-GhostGirlRepack/
-├── README.txt          ← Quick start guide
-├── INSTALL.txt         ← Step-by-step install instructions
-├── CHANGELOG.txt       ← Version history
-└── (payload files)     ← Added when built
-```
-
-Look for the folder named **`GhostGirlRepack`** — that's the one you copy to your USB stick.
+- ✅ Cleaner separation between the app store and the jailbreak package
+- ✅ Softmod can be versioned independently
+- ✅ Dedicated issue tracking for softmod problems
+- ✅ Easier to find if you just want the jailbreak
+- ✅ Smaller main repo
 
 ---
 
-## 🚀 Quick Start
+## 🎮 Want the App Store Instead?
 
-1.  Download **`GhostGirlRepack.zip`** from the Releases section.
-2.  Extract the zip on your PC.
-3.  Open the folder named **`GhostGirlRepack`**.
-4.  Format a USB stick to **FAT32**.
-5.  Select **all files and folders inside** `GhostGirlRepack`.
-6.  Copy them to the **root** of the USB stick.
-    - ⚠️ Do **not** copy the `GhostGirlRepack` folder itself — only its contents.
-7.  Safely eject the USB stick.
-8.  Plug it into your Xbox 360.
-9.  Follow the on-screen steps on your console.
+If you're looking for the **Project Ghost Girl app store** (the client that runs on your console), head back to the main repo:
 
-Full tutorial → [docs/TUTORIAL.md](../docs/TUTORIAL.md) *(coming soon)*
----
+<div align="center">
 
-## ⚠️ Requirements
+### → [Project-Ghost-Girl](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl)
 
-- A **jailbreakable Xbox 360** (ABadUpdate / ABadAvatar compatible)
-- A **USB stick** formatted to FAT32
-- A **PC** to prepare the USB stick
-- The **`GhostGirlRepack.zip`** file (from Releases)
-
-> ❗ Modding your console voids warranties and carries risk. Read the
-> [DISCLAIMER](../DISCLAIMER.md) before proceeding.
+</div>
 
 ---
 
-## 📜 Release History
+## 📦 Other Apps
 
-No releases yet. This section will be updated when the first
-version of `GhostGirlRepack.zip` is published.
+Every app under the Ghost-Girl-Jailbreak org:
 
-| Version | Date | Notes |
-|:---:|:---:|:---|
-| — | — | Not published yet |
+| App | Purpose |
+|:---|:---|
+| 🔓 [**GhostGirl-Softmod**](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod) | Softmod jailbreak package |
+| 🌡️ [**GhostGirl-System-Watch**](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-System-Watch) | Temperature & fan monitoring |
+| 🎨 [**GhostGirl-Themes**](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Themes) | Dashboard theme manager |
 
 ---
 
 <div align="center">
 
-<sub>Project Ghost Girl — *Built in the dark, for the scene.*</sub>
+💬 [Discord](https://discord.gg/2YFyMqP6Te) • 👻 [Main Repo](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl)
+
+<sub>Project Ghost Girl — *Built in the light, for the scene.*</sub>
 
 </div>
