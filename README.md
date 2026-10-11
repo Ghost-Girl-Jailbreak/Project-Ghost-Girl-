@@ -1,21 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:4b0082,100:8a2be2&height=220&section=header&text=Project%20Ghost%20Girl&fontSize=72&fontColor=c9a7ff&animation=fadeIn&fontAlignY=38&desc=Homebrew%20App%20Store&descAlignY=60&descSize=20" width="100%"/>
-
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=8A2BE2&center=true&vCenter=true&width=650&lines=Not+Public+Yet...;Still+In+Development...;Built+for+the+Scene...;Ghost+Girl+is+coming." alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:f5e6c8,100:d4af37&height=220&section=header&text=Project%20Ghost%20Girl&fontSize=72&fontColor=1a1a1a&animation=fadeIn&fontAlignY=38&desc=Homebrew%20App%20Store&descAlignY=60&descSize=20" width="100%"/>
 
 <br/><br/>
 
-![Status](https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-8A2BE2?style=for-the-badge&labelColor=0d0d0d)
-![Release](https://img.shields.io/badge/RELEASE-NOT%20PUBLIC-4B0082?style=for-the-badge&labelColor=0d0d0d)
-![Platform](https://img.shields.io/badge/PLATFORM-XBOX%20360-6A0DAD?style=for-the-badge&labelColor=0d0d0d)
-![License](https://img.shields.io/badge/LICENSE-PROPRIETARY-4B0082?style=for-the-badge&labelColor=0d0d0d)
+![Status](https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-D4AF37?style=for-the-badge&labelColor=1a1a1a)
+![Release](https://img.shields.io/badge/RELEASE-NOT%20PUBLIC-C9A227?style=for-the-badge&labelColor=1a1a1a)
+![Platform](https://img.shields.io/badge/PLATFORM-XBOX%20360-B8860B?style=for-the-badge&labelColor=1a1a1a)
+![License](https://img.shields.io/badge/LICENSE-PROPRIETARY-D4AF37?style=for-the-badge&labelColor=1a1a1a)
 
 <br/>
 
-[About](#-about) • [Consoles](#-supported-consoles) • [Vote](#️-vote-for-the-next-console) • [Status](#-development-status) • [FAQ](#-faq) • [License](#️-license)
+[About](#-about) • [Apps](#-apps) • [Softmod](#-softmod) • [Repos](#-related-repos) • [Consoles](#-supported-consoles) • [Vote](#️-vote-for-the-next-console) • [Status](#-development-status) • [Socials](#-socials) • [FAQ](#-faq)
 
 </div>
 
@@ -23,7 +19,7 @@
 
 <div align="center">
 
-## 🌌 About Project Ghost Girl
+## ✨ About Project Ghost Girl
 
 </div>
 
@@ -34,7 +30,7 @@ Everything happens on-console: pick an app, download it, install it, launch it. 
 <div align="center">
 
 | Feature | Description |
-|---|---|
+|:---|:---|
 | 🎮 **On-Console Store** | Browse and install without a PC |
 | ⚡ **Live Manifest** | New apps appear instantly, no client update |
 | 🗂️ **Per-App Repos** | Each app lives in its own GitHub repo |
@@ -45,6 +41,80 @@ Everything happens on-console: pick an app, download it, install it, launch it. 
 
 > ⚠️ **This project is NOT public yet.** It is currently in active development and no builds are available for download. This page exists for tracking and announcements only.
 
+---
+
+<div align="center">
+
+## 🎮 Apps
+
+</div>
+
+Every app below is part of the Project Ghost Girl app store. Install them directly from your console, or grab them from their individual repos.
+
+<div align="center">
+
+| App | What It Does | Status | Repo |
+|:---|:---|:---:|:---|
+| 🌡️ **System Watch** | Check CPU / GPU / EDRAM temperatures and control fan speed | 🟡 In Dev | [GhostGirl-System-Watch](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-System-Watch) |
+| 🎨 **Themes** | Browse, preview, and apply custom dashboard themes | 🟡 In Dev | [GhostGirl-Themes](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Themes) |
+| 🔓 **Softmod** | USB-based jailbreak package for Xbox 360 | 🟡 In Dev | [GhostGirl-Softmod](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod) |
+
+</div>
+
+> 🚧 **More apps are planned.** Watch this repo for updates.
+
+---
+
+<div align="center">
+
+## 🔓 Softmod
+
+</div>
+
+Get your Xbox 360 jailbroken with **`GhostGirlRepack.zip`** — the USB-based softmod package.
+
+<div align="center">
+
+| Feature | Description |
+|:---|:---|
+| 🔓 **USB-Based** | No hardware modifications |
+| ⚡ **Temporary** | Safer than permanent softmod |
+| 🎮 **ABadUpdate / ABadAvatar** | Works on both exploits |
+
+</div>
+
+### 📥 Download
+
+📦 **`GhostGirlRepack.zip`** — available in the [Softmod repo Releases](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod/releases).
+
+> 📖 **Read the [full install guide](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod/blob/main/docs/INSTALL.md) before starting.** Skipping steps will cause the exploit to fail.
+
+### 🚧 Permanent Softmod — Coming Soon
+
+> **Permanent softmod is coming soon.** Currently in testing. It will be recommended once verified stable on **Trinity**, **Corona**, and **Winchester** revisions.
+>
+> For now, use the temporary USB method.
+
+---
+
+<div align="center">
+
+## 📦 Related Repos
+
+</div>
+
+Everything under the **Ghost-Girl-Jailbreak** org:
+
+<div align="center">
+
+| Repo | Purpose |
+|:---|:---|
+| 👻 [**Project-Ghost-Girl**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl) | Main app store + client |
+| 🔓 [**GhostGirl-Softmod**](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod) | Softmod jailbreak package |
+| 🌡️ [**GhostGirl-System-Watch**](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-System-Watch) | Temperature & fan monitoring app |
+| 🎨 [**GhostGirl-Themes**](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Themes) | Dashboard theme manager app |
+
+</div>
 
 ---
 
@@ -70,37 +140,6 @@ At this moment, **Project Ghost Girl** only supports **jailbroken Xbox 360 conso
 > Only **Xbox 360** is supported right now. Other consoles are listed below for community voting.
 
 ---
-Want to get your Xbox 360 soft-modded using a USB stick? We've packaged everything you need into a single file called **`GhostGirlRepack.zip`**.
-
-> 📦 **Download:** `GhostGirlRepack.zip` — available in the [Releases](../../releases) section once published.
->
-> 📁 **Inside the zip:** Look for the folder named **`GhostGirlRepack`** — that's the one you'll copy to your USB stick.
-
-### 📝 Quick Overview
-
-1.  Download **`GhostGirlRepack.zip`** from the Releases page.
-2.  Extract the zip on your PC.
-3.  Find the folder named **`GhostGirlRepack`**.
-4.  Format a USB stick to **FAT32**.
-5.  Copy the **`GhostGirlRepack`** folder to the root of the USB stick.
-6.  Safely eject the USB stick.
-7.  Plug the USB stick into your Xbox 360.
-8.  Follow the on-screen steps on your console.
-
-### 🚧 Full Tutorial Coming Soon
-
-A complete step-by-step tutorial — including console setup, exploit steps, and troubleshooting — is being written and will be added here soon.
-
-> 💬 **Need the tutorial now?** Let us know by opening an issue, and we'll prioritize getting it published.
-
-### ⚠️ Requirements
-
-- A **jailbreakable Xbox 360** (ABadUpdate / ABadAvatar compatible)
-- A **USB stick** formatted to FAT32
-- A **PC** to prepare the USB stick
-- The **`GhostGirlRepack.zip`** file (from Releases)
-
-> ❗ Modding your console voids warranties and carries risk. Read the [DISCLAIMER](DISCLAIMER.md) before proceeding.
 
 <div align="center">
 
@@ -114,13 +153,13 @@ Want Project Ghost Girl on another platform? Click a console's **Vote here** lin
 
 | Console | Jailbreak Method | Vote |
 |:---|:---|:---:|
-| 🎮 **PlayStation 4** | GoldHEN / Mira | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/1#issue-5781141911) |
-| 🎮 **PlayStation 5** | etaHEN / BD-JB | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/2#issue-5781145790) |
-| 🎮 **PlayStation Vita** | HENkaku / Enso | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/3#issue-5781149752) |
-| 🎮 **Nintendo Switch** | Atmosphère | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/4#issue-5781154997) |
-| 🎮 **Nintendo 3DS** | Luma3DS / Boot9Strap | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/5#issue-5781159056) |
-| 🎮 **Wii U** | Tiramisu / Aroma | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/6#issue-5781161886) |
-| 🎮 **Original Xbox** | Softmod / TSOP | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/7#issue-5781165326) |
+| 🎮 **PlayStation 4** | GoldHEN / Mira | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/1) |
+| ⭐ **PlayStation 5** | etaHEN / BD-JB | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/2) |
+| 🎮 **PlayStation Vita** | HENkaku / Enso | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/3) |
+| 🎮 **Nintendo Switch** | Atmosphère | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/4) |
+| 🎮 **Nintendo 3DS** | Luma3DS / Boot9Strap | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/5) |
+| 🎮 **Wii U** | Tiramisu / Aroma | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/6) |
+| 🎮 **Original Xbox** | Softmod / TSOP | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl-/issues/7) |
 | 🎮 **PlayStation Portable (PSP)** | CFW / PRO / ME | [**Vote here**](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues/8) |
 
 </div>
@@ -139,15 +178,17 @@ Want Project Ghost Girl on another platform? Click a console's **Vote here** lin
 
 | Stage | Progress |
 |:---|:---:|
-| Core client | 🟣 In progress |
-| App browsing | 🟣 In progress |
-| App downloading | ⚫ Not started |
-| App installation | ⚫ Not started |
+| Core client | 🟡 In progress |
+| App browsing | 🟡 In progress |
+| App downloading | ⚪ Not started |
+| App installation | ⚪ Not started |
+| Softmod package | 🟡 In progress |
+| Permanent softmod | 🔜 Coming soon |
 | First public release | 🔒 Locked until stable |
 
 </div>
 
-> No public builds will be released until everything is stable and tested on real hardware. See the full [Roadmap](docs/ROADMAP.md).
+> No public builds will be released until everything is stable and tested on real hardware.
 
 ---
 
@@ -189,9 +230,9 @@ Stay connected with Project Ghost Girl. Get release announcements, ask for help,
 <br/>
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20the%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/2YFyMqP6Te)
-[![GitHub](https://img.shields.io/badge/GitHub-Project--Ghost--Girl-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl)
-[![Releases](https://img.shields.io/badge/Releases-GhostGirlRepack-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/releases)
-[![Issues](https://img.shields.io/badge/Issues-Report%20a%20Bug-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues)
+[![GitHub](https://img.shields.io/badge/GitHub-Ghost%20Girl%20Jailbreak-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak)
+[![Softmod](https://img.shields.io/badge/Releases-GhostGirlRepack-D4AF37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod/releases)
+[![Issues](https://img.shields.io/badge/Issues-Report%20a%20Bug-B8860B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ghost-Girl-Jailbreak/Project-Ghost-Girl/issues)
 
 <br/>
 
@@ -221,6 +262,15 @@ No. It's still in active development. No builds are available.
 **Which consoles are supported?**
 Only jailbroken Xbox 360 consoles running ABadUpdate or ABadAvatar.
 
+**How do I softmod my console?**
+Download `GhostGirlRepack.zip` from the [Softmod repo](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod/releases), then follow the [install guide](https://github.com/Ghost-Girl-Jailbreak/GhostGirl-Softmod/blob/main/docs/INSTALL.md).
+
+**When is permanent softmod coming?**
+Permanent softmod is **coming soon**. It's currently in testing and will be recommended once verified stable on Trinity, Corona, and Winchester. For now, use the temporary USB method.
+
+**What apps are available?**
+Right now: System Watch, Themes, and the Softmod itself. More apps are planned. See the [Apps](#-apps) section above.
+
 **Will it support other consoles?**
 Maybe. Vote on the issues above. The most-voted console gets considered after Xbox 360 support is stable.
 
@@ -248,9 +298,9 @@ This project is **not open source**. You may not copy, modify, redistribute, or 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8a2be2,50:4b0082,100:0d0d0d&height=140&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d4af37,50:f5e6c8,100:ffffff&height=140&section=footer&animation=fadeIn" width="100%"/>
 
-**Project Ghost Girl** — *Built in the dark, for the scene.*
+**Project Ghost Girl** — *Built in the light, for the scene.*
 
 <sub>Not affiliated with Microsoft. See [DISCLAIMER](DISCLAIMER.md).</sub>
 
